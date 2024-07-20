@@ -16,6 +16,7 @@ export default function SearchBox({ updateInfo }) {
       let response = await fetch(
         `${API_URL}?q=${city}&appid=${API_KEY}&units=metric`
       );
+      console.log(response)
       let responseJson = await response.json();
 
       let result = {
