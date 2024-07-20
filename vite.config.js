@@ -9,5 +9,8 @@ export default defineConfig({
   base: "/Weather-App-using-React-Vite",
   plugins: [react()],
   // define process env
+  define: {
+    'process.env': process.env
+  },
   
 })
