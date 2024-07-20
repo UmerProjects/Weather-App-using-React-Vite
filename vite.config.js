@@ -9,8 +9,5 @@ export default defineConfig({
   base: "/react-project/",
   plugins: [react()],
   // define process env
-  define: {
-    'process.env': process.env
-  },
   
 })
